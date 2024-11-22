@@ -27,12 +27,13 @@ This program is designed to find the root of the function \( f(x) = 2x - \log_{1
    The program prompts the user to enter the lower and upper bounds of the range.  
    - For the log-based function `f(x) = 2x - log10(x) - 7`, make sure to choose a positive lower bound (e.g., `2`) to avoid errors due to the logarithmic function's domain.
 
-### Example
+### Disclaimer
 
 ```bash
-bro set the range, be careful about the range you set for example for log shit start the range at 2 then for everything else it's fine
+Set the range, be careful about the range you set for example for log, start the range at 2 then for everything else you can choose any range, log(x) for x=<0 gives inf
 2
 5
+for log function in equation
 ```
 
 The program will:
