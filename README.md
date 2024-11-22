@@ -15,12 +15,12 @@ This program is designed to find the root of the function \( f(x) = 2x - \log_{1
 
 1. **Compile the Program**  
    ```bash
-   gcc -o root_finder root_finder.c -lm
+   gcc -o main main.c -lm
    ```
 
 2. **Run the Program**  
    ```bash
-   ./root_finder
+   ./main
    ```
 
 3. **Input Range**:  
