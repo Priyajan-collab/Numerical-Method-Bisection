@@ -65,7 +65,7 @@ The program will:
 ## Sample Output
 
 ```
-bro set the range, be careful about the range you set for example for log shit start the range at 2 then for everything else it's fine 
+Set the range, be careful about the range you set for example for log, start the range at 2 then for everything else you can choose any range, log(x) for x=<0 gives 
 2
 5
 the value of y is :[value] at [index]
