@@ -22,29 +22,30 @@ float calculate_range() {
 float find_root(float a, float b, float c) {
   float fx, fy, fc, temp = 0;
 
-  while (fabs(temp - c) > 0.00001) {
+  while (fabs(temp - c) > 0.000009) {
     fx = func(a);
     fy = func(b);
     fc = func(c);
-    printf("the value of a,b,c,fx,fy,fc ,%f,%f,%f,%f,%f,%f \n", a, b, c, fx, fy,
-           fc);
+    // printf("the value of a,b,c,fx,fy,fc ,%f,%f,%f,%f,%f,%f \n", a, b, c, fx,
+    // fy,
+    //        fc);
     if (fc >= 0) {
       if (fx >= 0 && fy < 0) {
         a = c;
-        printf("a switched with c 1.0 \n");
+        // printf("a switched with c 1.0 \n");
       } else {
         b = c;
-        printf("b switched with c 1.1\n");
+        // printf("b switched with c 1.1\n");
       }
 
     } else if (fc < 0) {
       if (fx < 0 && fy >= 0) {
         a = c;
-        printf("a switched with c 2.0\n");
+        // printf("a switched with c 2.0\n");
 
       } else {
         b = c;
-        printf("b switched with c 2.1\n");
+        // printf("b switched with c 2.1\n");
       }
     }
 
